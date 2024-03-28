@@ -5,8 +5,6 @@
     }
  }
 
- @media all and (min-width: 992px) {
-    .navbar navbar-light bg-light {
-        display: none;
-    }
- }
+body {
+    background-color: #FFF0E3;
+}
