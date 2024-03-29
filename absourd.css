@@ -5,6 +5,6 @@
     }
  }
 
-body {
-    background-color: #FFF0E3;
+.navbar {
+    background-color: #FFF0E3 !important;
 }
