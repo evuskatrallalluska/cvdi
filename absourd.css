@@ -21,3 +21,15 @@
     color: #FF8225;
     font-family: Unbounded, sans-serif;
 }
+
+:root {
+    --custom-btn-color: #10B9C3;
+    
+}
+
+.btn-custom {
+    background-color: var(--custom-btn-color);
+    border-color: var(--custom-btn-color); 
+    font-family: Unbounded, sans-serif;
+    color: #F9F9F9;
+  }
