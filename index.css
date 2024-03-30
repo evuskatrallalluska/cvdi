@@ -1,0 +1,32 @@
+
+.navbar {
+    background-color: #FFF0E3 !important;
+}
+
+.navbar-text,
+.nav-link {
+    color: #0D0C0C;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+#home {
+    color: #FF8225;
+    font-family: Unbounded, sans-serif;
+}
+
+:root {
+    --custom-btn-color: #10B9C3;
+    --custom-btn-border: black; 
+    
+}
+
+.btn-custom {
+    background-color: var(--custom-btn-color);
+    border-color: var(--custom-btn-border); 
+    font-family: Unbounded, sans-serif;
+    color: #F9F9F9;
+    padding: 12px 10px;
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0);
+  }
