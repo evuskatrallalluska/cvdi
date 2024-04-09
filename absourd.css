@@ -13,10 +13,16 @@
     padding: 0; 
 }
 .container-fluid {
+    width: auto;
+    height: auto;
     margin: 0;
 }
 
-
+.navbar.navbar-expand-lg {
+    width: auto;
+    height: auto;
+    margin: 0; 
+}
 
 .container {
     width: auto;
@@ -49,8 +55,12 @@
     font-family: Unbounded, sans-serif;
     color: #F9F9F9;
     padding: 12px 10px;
-    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
 
   }
 
+.buttonhome {
+    position: relative;
+    justify-content: right;
+}
   
