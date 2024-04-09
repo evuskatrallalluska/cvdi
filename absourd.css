@@ -5,23 +5,37 @@
     background-color: #FFF0E3 !important;
 }
 
+.navbar-brand {
+ width: 20%;
+ float: left;
+ margin-right: auto;
+}
+
 .navbar-collapse {
     padding: 0; 
 }
 .container-fluid {
-    width: auto;
+    width: 47%;
     height: auto;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .navbar.navbar-expand-lg {
     width: auto;
     height: auto;
-    margin: 0; 
+    display: flex;
 }
 
 #navbarNav {
-    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .container {
@@ -56,11 +70,11 @@
     color: #F9F9F9;
     padding: 12px 10px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
-    
-
   }
 
 .buttonhome {
-    margin-left: 23%;
+    float: right;
+    width: 15%;
+    
 }
   
