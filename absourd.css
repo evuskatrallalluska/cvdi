@@ -5,23 +5,23 @@
     background-color: #FFF0E3 !important;
 }
 
-.nav-item{
-    text-align: right;
-}
-
 .navbar-collapse {
     padding: 0; 
 }
 .container-fluid {
     width: auto;
     height: auto;
-    margin: 0;
+    text-align: center;
 }
 
 .navbar.navbar-expand-lg {
     width: auto;
     height: auto;
     margin: 0; 
+}
+
+#navbarNav {
+    position: relative;
 }
 
 .container {
@@ -56,11 +56,11 @@
     color: #F9F9F9;
     padding: 12px 10px;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
+    
 
   }
 
 .buttonhome {
-    position: relative;
-    justify-content: right;
+    margin-left: 23%;
 }
   
