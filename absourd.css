@@ -45,11 +45,12 @@
 }
 
 .navbar-text,
-.nav-link {
+.nav-link
+{
     color: #0D0C0C;
     font-family: Quicksand, sans-serif;
     font-weight: 600;
-    font-size: 100%;
+    font-size: 16px;
 }
 
 #home {
@@ -78,16 +79,6 @@
     filter:drop-shadow(7px 7px 0px rgba(0,0,0,1));
 }
 
-.wrapper {
-    width: 100%;
-    height: auto;
-    background-color: blueviolet;
+    
 }
-
-.wrapper2{
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
-    display: flex;
-    background-color: #FF8225;
-}
+  
