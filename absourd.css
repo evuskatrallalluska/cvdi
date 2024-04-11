@@ -83,11 +83,10 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
 }
 
 .center-image img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -107,4 +106,4 @@
     .center-image img {
       max-width: 80%;
     }
-}    
+}  
