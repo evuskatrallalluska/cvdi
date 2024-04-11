@@ -61,6 +61,7 @@
 :root {
     --custom-btn-color: #10B9C3;
     --custom-btn-border: black; 
+    --rem: 16px;
     
 }
 
@@ -107,3 +108,20 @@
       max-width: 80%;
     }
 }  
+
+.containerfooter {
+    background-color: #0D0C0C;
+}
+
+.text-muted {
+    color: whitesmoke !important;
+    font-family: Unbounded, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.text-muted1 {
+    color: whitesmoke !important;
+    font-family: Unbounded, sans-serif;
+    font-size: 1rem;
+}
