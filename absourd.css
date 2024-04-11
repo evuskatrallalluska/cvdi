@@ -91,19 +91,19 @@
     height: auto;
 }
 
-@media (min-width: 1200px) {
+@media only screen and (max-width: 1200px) {
     .center-image img {
       max-width: 60%;
     }
 }
 
-@media (min-width: 992px) {
+@media only screen and (max-width: 992px) {
     .center-image img {
       max-width: 70%; 
     }
 }
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 768px) {
     .center-image img {
       max-width: 80%;
     }
