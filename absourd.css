@@ -1,5 +1,13 @@
 
+/*elementi per tutte le pagine: navbar e footer*/
 
+/*font e titoli: aggiungere tutti i testi con la media query e anche il testo all'interno del bottone*/
+
+/*ombre: creare le classi delle ombre*/
+
+/*navbar*/
+
+/*cercare di usare i rem come unità di misura, quantomeno per i testi*/
 
 .navbar {
     background-color: #FFF0E3 !important;
@@ -83,17 +91,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 5%;
+    height: 100%;
+    width: 100%;
 }
 
 .center-image img {
-    width: 100%;
-    height: auto;
+    width: 70%;
+    height: 70%;
+    
 }
 
 @media only screen and (max-width: 1200px) {
     .center-image img {
-      max-width: 60%;
+      max-width: 70%;
     }
 }
 
@@ -108,7 +119,14 @@
       max-width: 80%;
     }
 }  
+.card{
+    justify-content: center;
+    background-color: #BF9BD2;
 
+}
+.card-body {
+    -webkit-clip-path: (20% 0% 100% 0% 80% 100% 0% 100%);
+}
 .containerfooter {
     background-color: #0D0C0C;
 }
