@@ -50,7 +50,7 @@
     color: #0D0C0C;
     font-family: Quicksand, sans-serif;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 #home {
@@ -124,4 +124,14 @@
     color: whitesmoke !important;
     font-family: Unbounded, sans-serif;
     font-size: 1rem;
+}
+
+#terms {
+    color: whitesmoke !important;
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+}
+
+.link-dark {
+    color:#10B9C3 !important;
 }
