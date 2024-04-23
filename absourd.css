@@ -70,6 +70,7 @@
     --custom-btn-color: #10B9C3;
     --custom-btn-border: black; 
     --rem: 16px;
+    --border-primary: black;
     
 }
 
@@ -127,18 +128,28 @@
 
 .shape {
     clip-path: polygon(0 1%, 100% 11%, 91% 100%, 9% 100%);
+    border-style: solid;
     border-radius: 40px 40px 40px 40px;
-
 }
-    
+ 
+.vertical-line {
+    border-left: 2px solid #000 !important;
+    height: 2rem;
+}
     
 h3 {
     font-family: Unbounded, sans-serif;
-    font-size: 2.5rem;
+    font-size: 2.0rem;
+    color: #0d0d0d; 
 }
-
+p {
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
 .stroke {
-    text-shadow: 0.5px 0.5px #0D0C0C;
+    text-shadow: 1px 1px #0D0C0C;
 }
 .containerfooter {
     background-color: #0D0C0C;
