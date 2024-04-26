@@ -136,7 +136,11 @@
     border-left: 2px solid #000 !important;
     height: 2rem;
 }
-    
+h2 {
+    font-family: Unbounded, sans-serif;
+    font-size: 2.488rem;
+    color: #0D0C0C;
+} 
 h3 {
     font-family: Unbounded, sans-serif;
     font-size: 2.0rem;
