@@ -128,13 +128,23 @@
 
 .shape {
     clip-path: polygon(0 1%, 100% 11%, 91% 100%, 9% 100%);
- 
-     border-radius: 17px 50px; 
+    
+    
+     
     
 }
+.shape2 {
+    clip-path: polygon(15% 0%, 100% 0%, 89% 100%, 0 99%);
+    
+    
+    z-index: 0;
 
+}
 .shape1 {
     clip-path: polygon(15% 0%, 100% 0%, 89% 100%, 0 99%);
+    box-shadow: 4px 4px 6px rgba(0, 0, 0, 0);
+    z-index: 1;
+    
 }
  
 .vertical-line {
