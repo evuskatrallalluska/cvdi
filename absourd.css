@@ -46,7 +46,7 @@
 
 }
 
-.container {
+#containernav {
     width: 20%;
     height: auto;
     margin: 0; 
@@ -131,6 +131,10 @@
  
      border-radius: 17px 50px; 
     
+}
+
+.shape1 {
+    clip-path: polygon(25% 0%, 100% 0%, 83% 100%, 0 99%);
 }
  
 .vertical-line {
