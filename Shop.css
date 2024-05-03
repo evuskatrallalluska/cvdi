@@ -1,27 +1,30 @@
-
-/*elementi per tutte le pagine: navbar e footer*/
-
-/*font e titoli: aggiungere tutti i testi con la media query e anche il testo all'interno del bottone*/
-
-/*ombre: creare le classi delle ombre*/
-
-/*navbar*/
-
-/*cercare di usare i rem come unità di misura, quantomeno per i testi*/
-
-/*per non fare andare a capo le parole: white-space: nowrap; */
-
 .navbar {
     background-color: #FFF0E3 !important;
 }
 
+.navbar-brand {
+ width: 20%;
+ float: left;
+ margin-right: auto;
+}
+
+.navbar-collapse {
+    padding: 0; 
+}
 .container-fluid {
+    width: 50%;
     height: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
+}
+
+.navbar.navbar-expand-lg {
+    width: 100%;
+    height: auto;
+    display: flex;
 }
 
 #navbarNav {
@@ -32,7 +35,7 @@
 
 }
 
-#containernav {
+.container {
     width: 20%;
     height: auto;
     margin: 0; 
@@ -44,20 +47,8 @@
     color: #0D0C0C;
     font-family: Quicksand, sans-serif;
     font-weight: 600;
-    font-size: 0.8750em;
-    white-space: nowrap;
+    font-size: 1rem;
 }
-
-
-.container-fluidHM {
-    display: none;
-}
-
-@media (max-width: 992px) {
-    .container-fluidHM {
-      display: block;
-    }
-  }
 
 #home {
     color: #FF8225;
@@ -78,76 +69,59 @@
     font-family: Unbounded, sans-serif;
     font-size: 0.8750em;
     color: #F9F9F9;
-    padding: 7%;
+    padding: 5% 10% 5% 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
   }
 
 .buttonhome {
-    width: 11.8rem;
+    width: 14%;
     filter:drop-shadow(7px 7px 0px rgba(0,0,0,1));
 }
-.center-image {
+
+.center-imageshop {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
     height: 100%;
     width: 100%;
 }
 
-.center-image img {
-    width: 70%;
-    height: 70%;
+.center-imageshop img {
+    width: 80%;
+    height: 80%;
     
 }
 
 @media only screen and (max-width: 1200px) {
-    .center-image img {
+    .center-imageshop img {
       max-width: 70%;
     }
 }
 
 @media only screen and (max-width: 992px) {
-    .center-image img {
+    .center-imageshop img {
       max-width: 70%; 
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .center-image img {
+    .center-imageshop img {
       max-width: 80%;
     }
 }  
-.card{
-    justify-content: center;
-    background-color: #BF9BD2;
+
+#box {
+    border: 2px solid #0D0C0C;
+    filter:box-shadow(7px 7px 0px rgba(0,0,0,1));
+
 
 }
 
-.shape {
-    clip-path: polygon(0 1%, 100% 11%, 91% 100%, 9% 100%);
- 
-     border-radius: 17px 50px; 
-    
-}
-
-.shape1 {
-    clip-path: polygon(15% 0%, 100% 0%, 89% 100%, 0 99%);
-}
- 
-.vertical-line {
-    border-left: 2px solid #000 !important;
-    height: 2rem;
-}
 h2 {
     font-family: Unbounded, sans-serif;
     font-size: 3.5rem;
     color: #0D0C0C;
 } 
-
-#box {
-    border: 2px solid #0D0C0C;
-}
 
 h3 {
     font-family: Unbounded, sans-serif;
@@ -162,30 +136,4 @@ p {
 }
 .stroke {
     text-shadow: 1px 1px #0D0C0C;
-}
-.containerfooter {
-    background-color: #0D0C0C;
-}
-
-.text-muted {
-    color: whitesmoke !important;
-    font-family: Unbounded, sans-serif;
-    font-size: 1.5rem;
-
-}
-
-.text-muted1 {
-    color: whitesmoke !important;
-    font-family: Unbounded, sans-serif;
-    font-size: 1rem;
-}
-
-#terms {
-    color: whitesmoke !important;
-    font-family: quicksand, sans-serif;
-    font-size: 1rem;
-}
-
-.link-dark {
-    color:#10B9C3 !important;
 }
