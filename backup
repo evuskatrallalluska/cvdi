@@ -58,3 +58,319 @@
       <div class="col-6 mx-auto" style="width: 45%">
         <h2 class="stroke py-4 px-2" id="box"> Le nostre <span style="font-family: Fraunces, serif, italic; font-size: 4.0rem;">Collezioni</span></h2>
       </div>
+
+
+
+
+      /*navbar toggler icon hamburger animation*/
+.navbar-toggler{
+    border: 0;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none; 
+    box-shadow: none;
+    border: 0;
+}
+.toggler-icon{
+    width: 30px;
+    height: 3px;
+    background-color: var(--black-strawberry);
+    display: block;
+    transition: all 0.2s;
+}
+.middle-bar{
+    margin: 5px auto;
+}
+.navbar-toggler .top-bar{
+    transform: rotate(45deg) translatey(-1px);
+    transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar{
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar{
+    transform: rotate(-45deg);
+    transform-origin: 10% 10%;
+}
+.navbar-toggler.collapsed .top-bar{
+    transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    transform: rotate(0);
+}
+.navbar-toggler.collapsed .toggler-icon{
+    background-color: var(--black-strawberry);
+}
+
+/*end toggler icon animation*/
+.cart-icon {
+    background-image: url("img/icon/Sacchetto-default.svg");
+    background-size: 100%;
+    background-position: center center;
+    width: 30px;
+    height: 30px;
+    display: flex;
+ }
+ @media (min-width: 1200px) {
+    .sl-nav-mobile-coll{
+        display: none !important;
+    }
+ }
+@media (min-width: 576px) {
+    .navbar .container-fluid{
+        border-radius: 1rem; 
+    }
+    .sl-collapse-mobile{
+        border-radius: 0 0 1rem 1rem;
+    }
+    .navbar-brand img{
+        width: 320px;
+        height: 34px;
+    }
+    .nav-link {
+        font-size: 1.25rem; 
+        font-family: "Space Grotesk";
+        font-weight: 500;
+        font-style: normal;
+        line-height: 100%;
+        text-decoration: none;
+        text-transform: none;
+    }
+    .toggler-icon{
+        width: 40px;
+        height: 4px;
+     }
+     .middle-bar{
+        margin: 7px auto;
+     }
+     .cart-icon{
+        width: 40px;
+        height: 40px;
+     }
+}
+@media (min-width: 768px) {
+    .navbar-brand img{
+        width: 358px;
+        height: 38px;
+    }
+}
+/*end navbar*/
+
+
+    <!-- <a class="navbar-brand" id="brand1" href="#">
+      <img id="logo" src="Logo2.svg" alt="Logo">
+    </a>
+    <div class="container-fluidHM">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        </ul>
+      </div>
+    </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a class="nav-link active me-4" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active me-4" aria-current="page" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active me-4" aria-current="page" href="#">BE ABSOURD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active me-4" aria-current="page" href="#">CONTATTI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">MISSION AZIENDALE</a>
+        </li>
+      </ul>
+      <div class="buttonhome">
+        <button class="btn-custom" type="button">ABSOURD SHOP</button>
+      </div>
+    </div>
+  </div>
+</nav>
+-->
+
+
+<nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
+    <div class="container-fluidHM">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      </div>
+      <a class="navbar-brand" id="brand1" href="#">
+        <img id="logo" src="Logo2.svg" alt="Logo"></a>
+  
+      <!-- desktop -->
+      <div class="d-none d-xl-inline collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">BE ABSOURD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" href="#">CONTATTI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-3" aria-current="page" href="#">MISSION AZIENDALE</a>
+          </li>
+        </ul>
+      </div>
+      
+      <a class="py-1 px-sm-3" href="#"><span class="cart-icon"></span></a>
+    </div>
+  
+    <!--mobile-->
+    <div class="d-xl-none ">
+    <div class="sl-collapse-mobile collapse navbar-collapse d-xl-none flex-row-reverse border-start border-end border-bottom sl-bg-avocado effect-style-default-shadow" id="navbarSupportedContent" aria-e>
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link px-3 py-4" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 py-4" href="#">BE ABSOURD</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 py-4" href="#">CONTATTI</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link px-3 py-4" aria-current="page"  href="#">MISSION AZIENDALE</a>
+        </li>
+      </ul>
+    </div>
+    </div>
+  
+  </nav>
+  
+  
+  
+      <!-- <a class="navbar-brand" id="brand1" href="#">
+        <img id="logo" src="Logo2.svg" alt="Logo">
+      </a>
+      <div class="container-fluidHM">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          </ul>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link active me-4" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-4" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-4" aria-current="page" href="#">BE ABSOURD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active me-4" aria-current="page" href="#">CONTATTI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">MISSION AZIENDALE</a>
+          </li>
+        </ul>
+        <div class="buttonhome">
+          <button class="btn-custom" type="button">ABSOURD SHOP</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  -->
+  <!-- seconda navbar compare da 992 px in giù -->
+  
+  <nav class="navbar navbar-light bg-light custom-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img id="logo" src="Logo2.svg" alt="Logo">
+      </a>
+      <!-- Aggiungi ulteriori elementi qui se necessario -->
+    </div>
+  </nav>
+
+
+
+  <ul class="navbar-nav mx-auto">
+    <li class="nav-item">
+      <a class="nav-link active me-4" aria-current="page" href="#">HOME</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active me-4" aria-current="page" href="#">ABOUT</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active me-4" aria-current="page" href="#">BE ABSOURD</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active me-4" aria-current="page" href="#">CONTATTI</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">MISSION AZIENDALE</a>
+    </li>
+  </ul>
+
+<!-- navbar definitiva -->
+
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluidHM">
+      <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="img/HB menu.svg">
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+        <li><a class="dropdown-item" href="#">Menu item</a></li>
+      </ul>
+    </div>
+    
+      
+      </div>
+    <a class="navbar-brand mt-3 ms-3" href="#">
+      <img src="img/logo-def.svg" alt="Logo">
+    </a>
+      <div class="container-fluidHM">
+        <a class="icon-link me-3" href="#">
+          <img src="img/carrello.svg" alt="carrello">
+        </a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">BE ABSOURD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">CONTATTI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">MISSION AZIENDALE</a>
+          </li>
+        </ul>
+        <div class="buttonhome">
+          <button class="btn-custom" type="button">ABSOURD SHOP</button>
+        </div>
+      </div>
+    </div>
+  </nav>
