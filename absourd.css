@@ -28,6 +28,11 @@
     justify-content: center;
 }
 
+.navbar-brand img {
+    width: 191px;
+    height: 70px;
+}
+
 #navbarNav {
     display: flex;
     align-items: center;
@@ -52,14 +57,88 @@
     white-space: nowrap;
 }
 
+.nav-link:hover{
+    color: #FF8225;
+}
+
+.nav-link:active{
+    color: #FF8225;
+}
+
+
+/*navbar toggler icon hamburger animation*/
+
+.container-fluidHM {
+    display: none;
+}
+
 @media (max-width: 992px) {
-    .navbar {
-      display: none;
+    .container-fluidHM {
+        display: block;
     }
-  }
+}
 
-/* per Burger menu */
+.container-fluidHM {
+    position: relative;  /* Permette al menu dropdown di posizionarsi relativamente al bottone */
+}
 
+/* Stilizzazione base del menu dropdown */
+.dropdown-menu {
+    display: none; 
+    position: absolute; 
+    z-index: 1000;
+    width: 100%;
+}
+
+/* Mostra il menu dropdown quando il bottone è in stato di focus */
+
+.btn:focus + .dropdown-menu,
+.btn:active + .dropdown-menu {
+    display: block;
+}
+
+/* Stilizzazione degli elementi all'interno del menu */
+.dropdown-item {
+    padding: 10px 20px;  /* Aggiunge padding per un miglior spacing */
+    cursor: pointer;  /* Cambia il cursore in un puntatore */
+    color: #333; /* Imposta il colore del testo */
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;  /* Cambia lo sfondo al passaggio del mouse */
+}
+
+/*end toggler icon animation*/
+
+
+@media (min-width: 576px) {
+    .navbar .container-fluid{
+        border-radius: 1rem; 
+    }
+    .sl-collapse-mobile{
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .nav-link {
+        color: #0D0C0C;
+        font-family: Quicksand, sans-serif;
+        font-weight: 600;
+        font-size: 0.8750em;
+        white-space: nowrap;
+        text-decoration: none;
+        text-transform: none;
+    }
+    .toggler-icon{
+        width: 40px;
+        height: 4px;
+     }
+     .middle-bar{
+        margin: 7px auto;
+     }
+     
+}
+
+/*end navbar*/
 
 
 /* Home */

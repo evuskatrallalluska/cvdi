@@ -22,6 +22,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,100..900&display=swap" rel="stylesheet">
 </head>
+
+
 <body>
   <style>
     body {
@@ -29,36 +31,46 @@
     }
   
   </style>
- <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img id="logo" src="Logo2.svg" alt="Logo">
-    </a>
+ 
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container-fluidHM">
+    <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <img src="img/HB menu.svg">
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+      <li><a class="dropdown-item" href="#">Menu item</a></li>
+    </ul>
+  </div>
+  
+    
+    </div>
+  <a class="navbar-brand mt-3 ms-3" href="#">
+    <img src="img/logo-def.svg" alt="Logo">
+  </a>
     <div class="container-fluidHM">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        </ul>
+      <a class="icon-link me-3" href="#">
+        <img src="img/carrello.svg" alt="carrello">
+      </a>
       </div>
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mx-auto">
         <li class="nav-item">
-          <a class="nav-link active me-4" aria-current="page" href="#">HOME</a>
+          <a class="nav-link me-4" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active me-4" aria-current="page" href="#">ABOUT</a>
+          <a class="nav-link me-4" aria-current="page" href="#">ABOUT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active me-4" aria-current="page" href="#">BE ABSOURD</a>
+          <a class="nav-link me-4" aria-current="page" href="#">BE ABSOURD</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active me-4" aria-current="page" href="#">CONTATTI</a>
+          <a class="nav-link me-4" aria-current="page" href="#">CONTATTI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">MISSION AZIENDALE</a>
+          <a class="nav-link" aria-current="page" href="#">MISSION AZIENDALE</a>
         </li>
       </ul>
       <div class="buttonhome">
@@ -66,16 +78,14 @@
       </div>
     </div>
   </div>
+
+
+  
+
+
 </nav>
 
-<!-- seconda navbar copare da 992 px in giù -->
 
-<nav class="navbar navbar-light bg-secondary d-lg-none">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Seconda Navbar</a>
-    <!-- Aggiungi ulteriori elementi qui se necessario -->
-  </div>
-</nav>
 
 
 <!-- contenuto home -->
