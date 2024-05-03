@@ -11,6 +11,10 @@
 
 /*per non fare andare a capo le parole: white-space: nowrap; */
 
+
+
+/* navbar*/
+
 .navbar {
     background-color: #FFF0E3 !important;
 }
@@ -48,18 +52,19 @@
     white-space: nowrap;
 }
 
-
-.container-fluidHM {
-    display: none;
-}
-
 @media (max-width: 992px) {
-    .container-fluidHM {
-      display: block;
+    .navbar {
+      display: none;
     }
   }
 
-#home {
+/* per Burger menu */
+
+
+
+/* Home */
+
+  #home {
     color: #FF8225;
     font-family: Unbounded, sans-serif;
 }
