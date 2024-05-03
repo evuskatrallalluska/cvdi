@@ -9,6 +9,12 @@
 
 /*cercare di usare i rem come unità di misura, quantomeno per i testi*/
 
+/*per non fare andare a capo le parole: white-space: nowrap; */
+
+
+
+/* navbar*/
+
 .navbar {
     background-color: #FFF0E3 !important;
 }
