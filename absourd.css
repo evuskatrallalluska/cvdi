@@ -13,29 +13,13 @@
     background-color: #FFF0E3 !important;
 }
 
-.navbar-brand {
- width: 20%;
- float: left;
- margin-right: auto;
-}
-
-.navbar-collapse {
-    padding: 0; 
-}
 .container-fluid {
-    width: 50%;
     height: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content: center;
-}
-
-.navbar.navbar-expand-lg {
-    width: 100%;
-    height: auto;
-    display: flex;
 }
 
 #navbarNav {
@@ -58,10 +42,23 @@
     color: #0D0C0C;
     font-family: Quicksand, sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.8750em;
+    white-space: nowrap;
 }
 
-#home {
+@media (max-width: 992px) {
+    .navbar {
+      display: none;
+    }
+  }
+
+/* per Burger menu */
+
+
+
+/* Home */
+
+  #home {
     color: #FF8225;
     font-family: Unbounded, sans-serif;
 }
@@ -80,12 +77,12 @@
     font-family: Unbounded, sans-serif;
     font-size: 0.8750em;
     color: #F9F9F9;
-    padding: 5% 10% 5% 10%;
+    padding: 7%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
   }
 
 .buttonhome {
-    width: 14%;
+    width: 11.8rem;
     filter:drop-shadow(7px 7px 0px rgba(0,0,0,1));
 }
 .center-image {
