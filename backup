@@ -374,3 +374,129 @@
       </div>
     </div>
   </nav>
+
+
+  
+ <!-- contenuto aggiornato il 4 maggio -->
+
+  <body>
+    <style>
+      body {
+        background-color: #FFF0E3;
+      }
+    
+    </style>
+   
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluidHM">
+      <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img src="img/HB menu.svg">
+      </button>
+      <ul class="dropdown-menu bs-dropdown-bg-none">
+        <li><a class="dropdown-item" href="#">HOME</a></li>
+        <li><a class="dropdown-item" href="#">ABOUT</a></li>
+        <li><a class="dropdown-item" href="#">BE ABSOURD</a></li>
+        <li><a class="dropdown-item" href="#">CONTATTI</a></li>
+        <li><a class="dropdown-item" href="#">MISSION AZIENDALE</a></li>
+        <li><a class="dropdown-item" href="#">ABSOURD SHOP</a></li>
+      </ul>
+    </div>
+    
+    <a class="navbar-brand mt-3 ms-3" href="#">
+      <img src="img/logo-def.svg" alt="Logo">
+    </a>
+      <div class="container-fluidHM">
+        <a class="icon-link me-3" href="#">
+          <img src="img/carrello.svg" alt="carrello">
+        </a>
+        </div>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">BE ABSOURD</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" aria-current="page" href="#">CONTATTI</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">MISSION AZIENDALE</a>
+          </li>
+        </ul>
+        <div class="buttonhome">
+          <button class="btn-custom" type="button">ABSOURD SHOP</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+  
+  
+  
+  
+  <!-- contenuto home -->
+  
+  <div class="container-fluid center-image">
+    <img src="img/immaginehome.png" alt="Responsive Image">
+  </div>
+    <div class="card mt-5 mb-0 py-2 mx-auto shape" style="width: 57%;">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-4 offset-2 pt-4">
+            <h3 class="stroke">Esploriamo <span style="color: whitesmoke;"> il futuro, </span>  creiamo <span style="color: whitesmoke;"> il bizzarro </span></h3>
+          </div>
+          <div class="col-4 pt-5 pl-5" style="width: 40%">
+            <p>AbsourdInnovative Industries nasce dall’ingegno di un gruppo di visionari che mescola estetica retro-futuristica e innovazione. Assurdità intelligente!</p>
+          </div> 
+        </div>
+      </div>     
+    </div>
+    <div class="row">
+      <button class=" col-2 py-3 px-1 mt-3 mb-5 btn-custom mx-auto" style="background-color: #FF8225; width: 12%" type="button">ABOUT</button>
+    </div>    
+  </div>
+  <div>
+  <div class="row">
+      <div class="col-6 mx-auto" style="width: 45%">
+        <h2 class="stroke py-4 px-2" id="box"> Le nostre <span style="font-family: Fraunces, serif, italic; font-size: 4.0rem;">Collezioni</span></h2>
+      </div>
+  
+  <div class="containerfooter">
+      <footer class="py-5 mx-3">
+        <div class="row">
+          <div class="col-2">
+            <img src="Group 9.svg" alt="">
+            <img src="Group 10.svg" alt="">
+          </div>
+          <div class="col-4 offset-3">
+            <p class="mt-5 pt-5 bg primary text-muted">Siamo qui!</p>
+            <p class="text-muted1">Viale dell'Innovazione, 3</p>
+            <p class="text-muted1">Milano 20126</p>
+          </div>
+          <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4">
+            <p id="terms">Termini e Condizioni  |  Privacy Policy  | ©2023 AbsourdInnovate, All Rights Reserved.</p>
+            <ul class="list-unstyled d-flex">
+              <li class="ms-3">
+                <a class="link-dark" href="#">
+                  <svg class="bi" width="24" height="24">
+                    <use xlink:href="#twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li></li>
+              <li></li>
+  
+            </ul>
+          </div>
+  
+        </div>
+      </footer>
+  </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>

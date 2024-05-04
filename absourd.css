@@ -13,6 +13,26 @@
 
 
 
+/* titoli e testi */
+
+h2 {
+    font-family: Unbounded, sans-serif;
+    font-size: 3.5rem;
+    color: #0D0C0C;
+} 
+
+h3 {
+    font-family: Unbounded, sans-serif;
+    font-size: 2.0rem;
+    color: #0d0d0d; 
+}
+p {
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
 /* navbar*/
 
 .navbar {
@@ -79,15 +99,18 @@
 }
 
 .container-fluidHM {
-    position: relative;  /* Permette al menu dropdown di posizionarsi relativamente al bottone */
+    position: relative; 
 }
 
 /* Stilizzazione base del menu dropdown */
 .dropdown-menu {
     display: none; 
-    position: absolute; 
+    position:absolute; 
     z-index: 1000;
-    width: 100%;
+    background-color: #FFF0E3 !important;
+    border: none;
+    width: 100% !important;
+    height: auto;
 }
 
 /* Mostra il menu dropdown quando il bottone è in stato di focus */
@@ -99,13 +122,18 @@
 
 /* Stilizzazione degli elementi all'interno del menu */
 .dropdown-item {
-    padding: 10px 20px;  /* Aggiunge padding per un miglior spacing */
-    cursor: pointer;  /* Cambia il cursore in un puntatore */
-    color: #333; /* Imposta il colore del testo */
+    padding: 15px 16px; 
+    cursor: pointer; 
+    color: #0D0C0C;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-size: 0.8750em;
+    white-space: nowrap;
 }
 
 .dropdown-item:hover {
-    background-color: #f8f9fa;  /* Cambia lo sfondo al passaggio del mouse */
+    color: #FF8225;
+    background-color: #f8f9fa;  
 }
 
 /*end toggler icon animation*/
@@ -174,7 +202,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 15%;
     height: 100%;
     width: 100%;
 }
@@ -233,30 +261,22 @@
     border-left: 2px solid #000 !important;
     height: 2rem;
 }
-h2 {
-    font-family: Unbounded, sans-serif;
-    font-size: 3.5rem;
-    color: #0D0C0C;
-} 
 
 #box {
     border: 2px solid #0D0C0C;
 }
 
-h3 {
-    font-family: Unbounded, sans-serif;
-    font-size: 2.0rem;
-    color: #0d0d0d; 
-}
-p {
-    font-family: quicksand, sans-serif;
-    font-size: 1rem;
-    color: #FDF8E9;
-    font-weight: bold;
-}
 .stroke {
     text-shadow: 1px 1px #0D0C0C;
 }
+
+
+
+
+
+
+/* footer */
+
 .containerfooter {
     background-color: #0D0C0C;
 }
@@ -283,3 +303,6 @@ p {
 .link-dark {
     color:#10B9C3 !important;
 }
+
+
+
