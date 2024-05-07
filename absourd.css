@@ -13,6 +13,26 @@
 
 
 
+/* titoli e testi */
+
+h2 {
+    font-family: Unbounded, sans-serif;
+    font-size: 3.5rem;
+    color: #0D0C0C;
+} 
+
+h3 {
+    font-family: Unbounded, sans-serif;
+    font-size: 2.0rem;
+    color: #0d0d0d; 
+}
+p {
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
 /* navbar*/
 
 .navbar {
@@ -26,6 +46,11 @@
     margin-right: auto;
     display: flex;
     justify-content: center;
+}
+
+.navbar-brand img {
+    width: 191px;
+    height: 70px;
 }
 
 #navbarNav {
@@ -52,14 +77,96 @@
     white-space: nowrap;
 }
 
+.nav-link:hover{
+    color: #FF8225;
+}
+
+.nav-link:active{
+    color: #FF8225;
+}
+
+
+/*navbar toggler icon hamburger animation*/
+
+.container-fluidHM {
+    display: none;
+}
+
 @media (max-width: 992px) {
-    .navbar {
-      display: none;
+    .container-fluidHM {
+        display: block;
     }
-  }
+}
 
-/* per Burger menu */
+.container-fluidHM {
+    position: relative; 
+}
 
+/* Stilizzazione base del menu dropdown */
+.dropdown-menu {
+    display: none; 
+    position:absolute; 
+    z-index: 1000;
+    background-color: #FFF0E3 !important;
+    border: none;
+    width: 100% !important;
+    height: auto;
+}
+
+/* Mostra il menu dropdown quando il bottone è in stato di focus */
+
+.btn:focus + .dropdown-menu,
+.btn:active + .dropdown-menu {
+    display: block;
+}
+
+/* Stilizzazione degli elementi all'interno del menu */
+.dropdown-item {
+    padding: 15px 16px; 
+    cursor: pointer; 
+    color: #0D0C0C;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-size: 0.8750em;
+    white-space: nowrap;
+}
+
+.dropdown-item:hover {
+    color: #FF8225;
+    background-color: #f8f9fa;  
+}
+
+/*end toggler icon animation*/
+
+
+@media (min-width: 576px) {
+    .navbar .container-fluid{
+        border-radius: 1rem; 
+    }
+    .sl-collapse-mobile{
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .nav-link {
+        color: #0D0C0C;
+        font-family: Quicksand, sans-serif;
+        font-weight: 600;
+        font-size: 0.8750em;
+        white-space: nowrap;
+        text-decoration: none;
+        text-transform: none;
+    }
+    .toggler-icon{
+        width: 40px;
+        height: 4px;
+     }
+     .middle-bar{
+        margin: 7px auto;
+     }
+     
+}
+
+/*end navbar*/
 
 
 /* Home */
@@ -95,7 +202,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 15%;
     height: 100%;
     width: 100%;
 }
@@ -154,30 +261,22 @@
     border-left: 2px solid #000 !important;
     height: 2rem;
 }
-h2 {
-    font-family: Unbounded, sans-serif;
-    font-size: 3.5rem;
-    color: #0D0C0C;
-} 
 
 #box {
     border: 2px solid #0D0C0C;
 }
 
-h3 {
-    font-family: Unbounded, sans-serif;
-    font-size: 2.0rem;
-    color: #0d0d0d; 
-}
-p {
-    font-family: quicksand, sans-serif;
-    font-size: 1rem;
-    color: #FDF8E9;
-    font-weight: bold;
-}
 .stroke {
     text-shadow: 1px 1px #0D0C0C;
 }
+
+
+
+
+
+
+/* footer */
+
 .containerfooter {
     background-color: #0D0C0C;
 }
@@ -204,3 +303,6 @@ p {
 .link-dark {
     color:#10B9C3 !important;
 }
+
+
+
