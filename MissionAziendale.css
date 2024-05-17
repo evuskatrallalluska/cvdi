@@ -68,9 +68,11 @@
     border-color: var(--custom-btn-border); 
     font-family: Unbounded, sans-serif;
     font-size: 0.8750em;
+    line-height: 2;
     color: #F9F9F9;
     padding: 5% 10% 5% 10%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
+    
   }
 
 .buttonhome {
@@ -154,4 +156,12 @@ p {
     font-size: 2.5rem;
   }
   
+  .testo-sopra-immagine1 {
+    position: absolute; /* Imposta il testo come posizione assoluta rispetto al contenitore */
+    top: 49%; /* Posiziona il testo a metà dell'altezza del contenitore */
+    left: 48%; /* Posiziona il testo a metà della larghezza del contenitore */
+    transform: translate(-50%, -50%); /* Centra il testo sia orizzontalmente che verticalmente */
+    
+  }
  
+  
