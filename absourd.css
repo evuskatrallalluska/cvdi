@@ -26,6 +26,21 @@ h3 {
     font-size: 2.0rem;
     color: #0d0d0d; 
 }
+
+h4 {
+    font-family: quicksand, sans-serif;
+    font-size: 1.5rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: quicksand, sans-serif;
+    font-size: 0.5rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
 p {
     font-family: quicksand, sans-serif;
     font-size: 1rem;
@@ -277,8 +292,41 @@ p {
 
 /* footer */
 
-.containerfooter {
-    background-color: #0D0C0C;
+footer{
+    width: 100%;
+}
+
+.container-fluid2 {
+    background-image: url(img/footer.svg);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.siamo-qui{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .siamoqui {
+        width: 650px;
+        height: 145px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
 }
 
 .text-muted {
