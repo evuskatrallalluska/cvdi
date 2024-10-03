@@ -1,18 +1,45 @@
+/* titoli e testi */
+
+h2 {
+    font-family: Unbounded, sans-serif;
+    font-size: 2.488 rem;
+    color: #0D0C0C;
+} 
+
+h3 {
+    font-family: Unbounded, sans-serif;
+    font-size: 2.074 rem;
+    color: #0d0d0d; 
+}
+
+h4 {
+    font-family: quicksand, sans-serif;
+    font-size: 1.728 rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
+h6 {
+    font-family: quicksand, sans-serif;
+    font-size: 1.2 rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
+p {
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+    color: #FDF8E9;
+    font-weight: bold;
+}
+
+/* navbar*/
+
 .navbar {
     background-color: #FFF0E3 !important;
 }
 
-.navbar-brand {
- width: 20%;
- float: left;
- margin-right: auto;
-}
-
-.navbar-collapse {
-    padding: 0; 
-}
 .container-fluid {
-    width: 50%;
     height: auto;
     text-align: center;
     margin-left: auto;
@@ -21,10 +48,9 @@
     justify-content: center;
 }
 
-.navbar.navbar-expand-lg {
-    width: 100%;
-    height: auto;
-    display: flex;
+.navbar-brand img {
+    width: 191px;
+    height: 70px;
 }
 
 #navbarNav {
@@ -35,7 +61,7 @@
 
 }
 
-.container {
+#containernav {
     width: 20%;
     height: auto;
     margin: 0; 
@@ -47,8 +73,102 @@
     color: #0D0C0C;
     font-family: Quicksand, sans-serif;
     font-weight: 600;
-    font-size: 1rem;
+    font-size: 0.8750em;
+    white-space: nowrap;
 }
+
+.nav-link:hover{
+    color: #FF8225;
+}
+
+.nav-link:active{
+    color: #FF8225;
+}
+
+
+/*navbar toggler icon hamburger animation*/
+
+.container-fluidHM {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .container-fluidHM {
+        display: block;
+    }
+}
+
+.container-fluidHM {
+    position: relative; 
+}
+
+/* Stilizzazione base del menu dropdown */
+.dropdown-menu {
+    display: none; 
+    position:absolute; 
+    z-index: 1000;
+    background-color: #FFF0E3 !important;
+    border: none;
+    width: 100% !important;
+    height: auto;
+}
+
+/* Mostra il menu dropdown quando il bottone è in stato di focus */
+
+.btn:focus + .dropdown-menu,
+.btn:active + .dropdown-menu {
+    display: block;
+}
+
+/* Stilizzazione degli elementi all'interno del menu */
+.dropdown-item {
+    padding: 15px 16px; 
+    cursor: pointer; 
+    color: #0D0C0C;
+    font-family: Quicksand, sans-serif;
+    font-weight: 600;
+    font-size: 0.8750em;
+    white-space: nowrap;
+}
+
+.dropdown-item:hover {
+    color: #FF8225;
+    background-color: #f8f9fa;  
+}
+
+/*end toggler icon animation*/
+
+
+@media (min-width: 576px) {
+    .navbar .container-fluid{
+        border-radius: 1rem; 
+    }
+    .sl-collapse-mobile{
+        border-radius: 0 0 1rem 1rem;
+    }
+
+    .nav-link {
+        color: #0D0C0C;
+        font-family: Quicksand, sans-serif;
+        font-weight: 600;
+        font-size: 0.8750em;
+        white-space: nowrap;
+        text-decoration: none;
+        text-transform: none;
+    }
+    .toggler-icon{
+        width: 40px;
+        height: 4px;
+     }
+     .middle-bar{
+        margin: 7px auto;
+     }
+     
+}
+
+/*end navbar*/
+
+/* Home */
 
 #home {
     color: #FF8225;
@@ -68,92 +188,46 @@
     border-color: var(--custom-btn-border); 
     font-family: Unbounded, sans-serif;
     font-size: 0.8750em;
-    line-height: 2;
     color: #F9F9F9;
-    padding: 5% 10% 5% 10%;
+    padding: 7%;
     box-shadow: 4px 4px 6px rgba(0, 0, 0, 0)
-    
   }
 
 .buttonhome {
-    width: 14%;
+    width: 11.8rem;
     filter:drop-shadow(7px 7px 0px rgba(0,0,0,1));
 }
 
-.center-imageshop {
+/* Mission Aziendale */
+
+.center-image {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 15%;
     height: 100%;
     width: 100%;
 }
 
-.center-imageshop img {
-    width: 80%;
-    height: 80%;
+.center-image img {
+    width: 70%;
+    height: 70%;
     
 }
-
-@media only screen and (max-width: 1200px) {
-    .center-imageshop img {
-      max-width: 70%;
-    }
-}
-
-@media only screen and (max-width: 992px) {
-    .center-imageshop img {
-      max-width: 70%; 
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    .center-imageshop img {
-      max-width: 80%;
-    }
-}  
-
-#box {
-    border: 2px solid #0D0C0C;
-    filter:box-shadow(7px 7px 0px rgba(0,0,0,1));
-
-
-}
-
-h2 {
-    font-family: Unbounded, sans-serif;
-    font-size: 3.5rem;
-    color: #0D0C0C;
-} 
-
-h3 {
-    font-family: Unbounded, sans-serif;
-    font-size: 2.0rem;
-    color: #0d0d0d; 
-}
-p {
-    font-family: quicksand, sans-serif;
-    font-size: 1rem;
-    color: #FDF8E9;
-    font-weight: bold;
-}
-.stroke {
-    text-shadow: 1px 1px #0D0C0C;
-}
-
-
-/* per Burger menu */
 
 .container1 {
     position: relative; /* Imposta il contenitore come posizione relativa */
     display: inline-block; /* Consente di adattarsi alle dimensioni dell'immagine */
+    width: 55%;
+    height: 55%;
   }
   
   .testo-sopra-immagine {
     position: absolute; /* Imposta il testo come posizione assoluta rispetto al contenitore */
-    top: 22%; /* Posiziona il testo a metà dell'altezza del contenitore */
-    left: 36%; /* Posiziona il testo a metà della larghezza del contenitore */
+    top: 24%; /* Posiziona il testo a metà dell'altezza del contenitore */
+    left: 48%; /* Posiziona il testo a metà della larghezza del contenitore */
     transform: translate(-50%, -50%); /* Centra il testo sia orizzontalmente che verticalmente */
-    font-size: 2.5rem;
+    
   }
   
   .testo-sopra-immagine1 {
@@ -164,4 +238,133 @@ p {
     
   }
  
+  /* footer */
+
+footer{
+    width: 100%;
+}
+
+.container-fluid2 {
+    background-image: url(img/footer.svg);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.siamo-qui{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .siamoqui {
+        width: 650px;
+        height: 145px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+.text-muted {
+    color: whitesmoke !important;
+    font-family: Unbounded, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.text-muted1 {
+    color: whitesmoke !important;
+    font-family: Unbounded, sans-serif;
+    font-size: 1rem;
+}
+
+#terms {
+    color: whitesmoke !important;
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+}
+
+.link-dark {
+    color:#10B9C3 !important;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+}
+
+.container-fluid2 {
+    background-image: url(img/footer.svg);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.siamo-qui{
+    width: 100%;
+    height: 100%;
+}
+
+
+@media (min-width: 768px) {
+    .siamoqui {
+        width: 650px;
+        height: 145px;
+    }
+    .container1 
+}
+
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+.text-muted {
+    color: whitesmoke !important;
+    font-family: Unbounded, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.text-muted1 {
+    color: whitesmoke !important;
+    font-family: Unbounded, sans-serif;
+    font-size: 1rem;
+}
+
+#terms {
+    color: whitesmoke !important;
+    font-family: quicksand, sans-serif;
+    font-size: 1rem;
+}
+
+.link-dark {
+    color:#10B9C3 !important;
+}
+
+
+
+
   
