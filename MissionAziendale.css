@@ -263,21 +263,6 @@ footer{
     height: 100%;
 }
 
-
-@media (min-width: 768px) {
-    .siamoqui {
-        width: 650px;
-        height: 145px;
-    }
-}
-
-@media (max-width: 768px) {
-    .navbar-brand {
-        display: none;
-    }
-
-}
-
 .text-muted {
     color: whitesmoke !important;
     font-family: Unbounded, sans-serif;
@@ -363,8 +348,31 @@ footer{
 .link-dark {
     color:#10B9C3 !important;
 }
+/* media query */ 
 
+@media (min-width: 768px) {
+    .siamoqui {
+        width: 650px;
+        height: 145px;
+    }
+}
 
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+}
 
+@media (min-width: 992px) and (max-width: 1300px) {
+    p {
+        font-size: 0.9rem;
+    }
+  } 
+
+  @media (min-width: 768px) and (max-width: 992px) {
+    p {
+        font-size: 0.7rem;
+    }
+  } 
 
   
